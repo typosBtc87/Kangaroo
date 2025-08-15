@@ -26,7 +26,7 @@ void Secp256K1::Init() {
 
   // Prime for the finite field
   Int P;
-  P.SetBase16("FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F");
+  P.SetBase16("0xfffffffffffffffffffffffffffffffebaaedce6af487e246f4eac90b714b3bd");
 
   // Set up field
   Int::SetupField(&P);
